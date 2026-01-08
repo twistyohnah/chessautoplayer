@@ -1,5 +1,5 @@
 """
-chess_gui_bestmove.py
+chess_gui_.py
 A Tkinter chessboard where you click to place/move pieces, then press 'Get Best Move'
 to query Stockfish. Uses unicode chess pieces so no image files required.
 
@@ -16,7 +16,7 @@ import chess.engine
 import os
 
 # --- CONFIG --- #
-STOCKFISH_PATH = r"C:\Users\rj\Desktop\cleaner\chess\stockfish-windows-x86-64-avx2.exe"
+STOCKFISH_PATH = r"path to stockfish"
 ENGINE_TIME = 0.25  # seconds to think for best-move (adjust to taste)
 
 # Unicode pieces
@@ -305,3 +305,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ChessGUI(root)
     root.mainloop()
+

@@ -11,7 +11,7 @@ Installation
 
 Clone the repository
 
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/twistyohnah/chessautoplayer.git
 cd yourrepo
 
 

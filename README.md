@@ -12,7 +12,7 @@ Installation
 Clone the repository
 
 git clone https://github.com/twistyohnah/chessautoplayer.git
-cd yourrepo
+cd chessautoplayer
 
 
 Install dependencies
